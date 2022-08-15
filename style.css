@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+}
+
+.conteiner-grid{
+    display: grid;
+    grid-template-areas: 
+    "item1 item1 item1"
+    "item2 item2 item2"
+    "item3 item3 item3";
+    
+}
+.conteiner-grid div{
+   
+}
+#item1{
+    grid-area: item1;
+    height: 9vh;
+     background-color:  rgba(0, 0, 0, 0.7);
+ 
+}
+#item2{
+    grid-area: item2;
+    height: 140vh;
+}
+#item3{
+    grid-area: item3;
+    height: 30vh;
+    background-color: black;
+
+}
+li{
+    
+    display: inline-block;
+    padding: 0px 10px;
+    color: white;
+    display: inline-block;
+    padding: 10px 10px 10px;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+li:hover{
+    color: #5F9EA0; 
+
+transition: 0.5s;
+
+opacity: 0.7;
+}
+ul{
+    margin-left: 20%;
+}
+.input-pesquisar{
+    padding: 0px 300px;
+    margin-top: -3%;
+    display: flex;
+    justify-content: end;
+}
+
+.simbolozap{
+    height: 250px;
+    width: 230px;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+.h7{
+    position: absolute;
+      left: 11.5%;
+      top: 53%;
+  font-size: 22px;
+  font-weight: 800;
+}
+.simboloemail{
+    height: 250px;
+    width: 230px;
+    margin-top: 7%;
+    margin-left: 15%;
+}
+.h8{
+    position: absolute;
+      left: 38%;
+      top: 53%;
+  font-size: 22px;
+  font-weight: 800;}
+
+    .simbolotelefone{
+        height: 250px;
+        width: 230px;
+        margin-top: 7%;
+        margin-left: 20%;
+    }
+    .h9{
+        position: absolute;
+      left: 80%;
+      top: 53%;
+    font-size: 22px;
+  font-weight: 800;
+        }
+        .simboloinsta{
+            height: 230px;
+            width: 230px;
+            margin-top: 7%;
+            margin-left: 10%;
+        }
+        .h10{
+            position: absolute;
+            left: 13%;
+            top: 103%;
+          font-size: 22px;
+        font-weight: 800;
+            }
+            .simboloface{
+                height: 250px;
+                width: 230px;
+                margin-top: 8%;
+                margin-left: 15%;
+            }
+            .h11{
+                position: absolute;
+            left: 42%;
+            top: 103%;
+          font-size: 22px;
+        font-weight: 800;
+            }
+            .h12{
+                position: absolute;
+            left: 79%;
+            top: 103%;
+          font-size: 22px;
+        font-weight: 800;
+                }
+                .simbolotwitter{
+                    height: 250px;
+                    width: 230px;
+                    margin-top: 8%;
+                    margin-left: 20%;
+                }
+                .calca3{
+                    height: 250px;
+                    width: 230px;
+                    margin-top: 8%;
+                    margin-left: 7%;
+                }
+                .h13{
+                    position: absolute;
+                    left: 54%;
+                    top: 127%;
+                    font-size: 14px;
+                    }
+                    .calca4{
+                        height: 250px;
+                        width: 230px;
+                        margin-top: 8%;
+                        margin-left: 7%;
+                    }
+                    .h14{
+                        position: absolute;
+                        left: 77.5%;
+                        top: 130%;
+                        font-size: 14px;
+                    }
+                    .tenis1{
+                        height: 250px;
+                        width: 230px;
+                        margin-top: 9%;
+                        margin-left: 7%;
+                    }
+                    .h15{
+                        position: absolute;
+                          left: 8%;
+                          top: 185%;
+                          font-size: 14px;
+                    }
+                    .tenis2{
+                        height: 250px;
+                        width: 230px;
+                        margin-top: 9%;
+                        margin-left: 7%;
+                    }
+                    .h16{
+                        position: absolute;
+                          left: 36%;
+                          top: 185%;
+                          font-size: 14px;
+                    }
+                    .tenis3{
+                        height: 250px;
+                        width: 230px;
+                        margin-top: 9%;
+                        margin-left: 7%;
+                    }
+                    .h17{
+                        position: absolute;
+                          left: 59%;
+                          top: 185%;
+                          font-size: 14px;
+                    }
+                    .tenis4{
+                        height: 250px;
+                        width: 230px;
+                        margin-top: 9%;
+                        margin-left: 7%;
+                    }
+                    .h18{
+                        position: absolute;
+                          left: 80%;
+                          top: 185%;
+                          font-size: 14px;
+                    }
+                    .textofinal2{
+                        position: relative;
+                        top:-145px;
+                        left: -130px;
+                      }
+                      .textofinal3{
+                        position: relative;
+                        top:-145px;
+                        left: -80px;
+                      }
+                      .textofinal4{
+                        position: relative;
+                        top:-145px;
+                        left: -30px;
+                      }
+                      .textofinal5{
+                        position: relative;
+                        top:-145px;
+                        left: 20px;
+                      }
+		.logositegrid{
+  position: absolute;
+  left: 1%;
+  top:-10%;
+  height: 300px;
+  width: 280px;
+}
